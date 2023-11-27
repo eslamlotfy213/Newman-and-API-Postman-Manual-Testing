@@ -1,0 +1,14 @@
+Extract collection
+Extract enviroment
+
+
+Steps:
+add path     >D:\Newman\node_modules\.bin on the 
+add variable >
+newman
+D:\Newman\node_modules\.bin
+
+newman run "Project Trello API..postman_collection.json" -e "Trello Environment.postman_environment.json"
+
+newman run "Project Trello API..postman_collection.json" -e "Trello Environment.postman_environment.json"  -r htmlextra
+
