@@ -12,3 +12,9 @@ newman run "Project Trello API..postman_collection.json" -e "Trello Environment.
 
 newman run "Project Trello API..postman_collection.json" -e "Trello Environment.postman_environment.json"  -r htmlextra
 
+
+
+
+to run from jenkins
+cd C:\Users\Eslam.Lotfy\Desktop\Collections
+newman run collection.json -e environment.json -r htmlextra
